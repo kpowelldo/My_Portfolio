@@ -229,7 +229,11 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
+
   background: url("../img/markus-spiske-uPXs5Vx5bIg-unsplash\ \(1\).jpg") top center;
+=======
+  background: url("../img/DoFam2022-1805.jpg") top center;
+
   background-size: cover;
 }
 
@@ -547,7 +551,11 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
+
   color: #f52164;
+=======
+  color: #149ddd;
+
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -572,7 +580,6 @@ section {
   transition: all ease-in-out 0.3s;
   z-index: 2;
   opacity: 0;
- 
 }
 
 .portfolio .portfolio-wrap .portfolio-links {
@@ -592,6 +599,8 @@ section {
   font-size: 28px;
   text-align: center;
   background: #f52164;
+=======
+  background: rgba(20, 157, 221, 0.75);
   transition: 0.3s;
   width: 50%;
 }
@@ -602,6 +611,13 @@ section {
 
 .portfolio .portfolio-wrap .portfolio-links a+a {
   border-left: 1px solid #f52164;
+=======
+  background: rgba(20, 157, 221, 0.95);
+}
+
+.portfolio .portfolio-wrap .portfolio-links a+a {
+  border-left: 1px solid #37b3ed;
+
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -643,6 +659,13 @@ section {
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #f52164;
+=======
+  border: 1px solid #149ddd;
+}
+
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #149ddd;
+
 }
 
 .portfolio-details .portfolio-info {
@@ -696,10 +719,17 @@ section {
   justify-content: center;
   width: 54px;
   height: 54px;
+
   background: #f52164;
   border-radius: 50%;
   transition: 0.5s;
   border: 1px solid #f52164;
+=======
+  background: #149ddd;
+  border-radius: 50%;
+  transition: 0.5s;
+  border: 1px solid #149ddd;
+
 }
 
 .services .icon i {
@@ -713,7 +743,11 @@ section {
 }
 
 .services .icon-box:hover .icon i {
+
   color: #f52164;
+=======
+  color: #149ddd;
+
 }
 
 .services .title {
@@ -728,7 +762,11 @@ section {
 }
 
 .services .title a:hover {
+
   color: #f52164;
+=======
+  color: #149ddd;
+
 }
 
 .services .description {
@@ -822,11 +860,19 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
+
   border: 1px solid #f52164;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #f52164;
+=======
+  border: 1px solid #149ddd;
+}
+
+.testimonials .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #149ddd;
+
 }
 
 /*--------------------------------------------------------------
@@ -845,7 +891,11 @@ section {
 
 .contact .info i {
   font-size: 20px;
+
   color: #f52164;
+=======
+  color: #149ddd;
+
   float: left;
   width: 44px;
   height: 44px;
@@ -896,14 +946,22 @@ section {
 }
 
 .contact .info .social-links a:hover {
+
   background: #f52164;
+=======
+  background: #149ddd;
+
   color: #fff;
 }
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
+
   background: #f52164;
+=======
+  background: #149ddd;
+
   color: #fff;
 }
 
@@ -991,7 +1049,11 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
+
   background: #f52164;
+=======
+  background: #149ddd;
+
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1000,7 +1062,11 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
+
   background: #f52164;
+=======
+  background: #37b3ed;
+
 }
 
 @keyframes animate-loading {
@@ -1105,4 +1171,6 @@ section {
 .altcademy a:hover {
   text-decoration: underline;
   color:pink;
+=======
+
 }
